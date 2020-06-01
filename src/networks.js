@@ -500,6 +500,18 @@ module.exports = {
     coin: coins.BTC,	
     hashFunctions: hashFunctions	
   },
+  ilcoin: {
+    messagePrefix: '\x18ILCoin Signed Message:\n',
+    bip32: {
+      public: 0x0488b21e,
+      private: 0x0488ade4
+    },
+    pubKeyHash: 0x00,
+    scriptHash: 0x05,
+    wif: 0x80,
+    coin: coins.BTC,
+    hashFunctions: hashFunctions
+  },
   /* btcp: { // TODO
     messagePrefix: '\x18Bitcoin Private Signed Message:\n',
     bech32: 'btg',
