@@ -43,6 +43,7 @@ module.exports = {
   },
   litecoin: {
     messagePrefix: '\x19Litecoin Signed Message:\n',
+    bech32: 'ltc',
     bip32: {
       public: 0x019da462,
       private: 0x019d9cfe
@@ -79,7 +80,6 @@ module.exports = {
   },
   bitcoincash: {
     messagePrefix: '\x18Bitcoin Signed Message:\n',
-    bech32: 'bc',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
@@ -93,7 +93,6 @@ module.exports = {
   },
   bitcoincashTestnet: {
     messagePrefix: '\x18Bitcoin Signed Message:\n',
-    bech32: 'tb',
     bip32: {
       public: 0x043587cf,
       private: 0x04358394
@@ -106,7 +105,6 @@ module.exports = {
   },
   zcash: {
     messagePrefix: '\x18ZCash Signed Message:\n',
-    bech32: 'bc',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
@@ -127,7 +125,6 @@ module.exports = {
   },
   zcashTest: {
     messagePrefix: '\x18ZCash Signed Message:\n',
-    bech32: 'tb',
     bip32: {
       public: 0x043587cf,
       private: 0x04358394
@@ -160,7 +157,6 @@ module.exports = {
   },
   komodo: {
     messagePrefix: '\x18Komodo Signed Message:\n',
-    bech32: 'bc',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
@@ -181,7 +177,6 @@ module.exports = {
   },
   safecoin: {
     messagePrefix: '\x18Safecoin Signed Message:\n',
-    bech32: 'bc',
     bip32: {
       public: 0x0488b21f,
       private: 0x0488ade5
@@ -202,7 +197,6 @@ module.exports = {
   },
   bithereum: {
     messagePrefix: '\x18Bithereum Signed Message:\n',
-    bech32: 'bth',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
@@ -216,7 +210,6 @@ module.exports = {
   },
   zelcash: {
     messagePrefix: '\x18ZelCash Signed Message:\n',
-    bech32: 'bc',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
@@ -237,7 +230,6 @@ module.exports = {
   },
   zero: {
     messagePrefix: '\x18Zero Signed Message:\n',
-    bech32: 'bc',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
@@ -258,7 +250,6 @@ module.exports = {
   },
   snowgem: {
     messagePrefix: '\x18Snowgem Signed Message:\n',
-    bech32: 'bc',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
@@ -279,7 +270,6 @@ module.exports = {
   },
   commercium: {
     messagePrefix: '\x18Commercium Signed Message:\n',
-    bech32: 'bc',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
@@ -313,7 +303,6 @@ module.exports = {
   },
   zclassic: {
     messagePrefix: '\x18Zclassic Signed Message:\n',
-    bech32: 'bc',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
@@ -334,7 +323,6 @@ module.exports = {
   },
   bzedge: {
     messagePrefix: '\x18Bzedge Signed Message:\n',
-    bech32: 'bc',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
@@ -355,7 +343,6 @@ module.exports = {
   },
   genesis: {
     messagePrefix: "\x18Genesis Signed Message: \n",
-    bech32: "genx",
     bip32: {
       public: 0x53414645,
       private: 0x53616665,
@@ -368,7 +355,6 @@ module.exports = {
   },
   bitcoinzero: {
     messagePrefix: "\x18BitcoinZero Signed Message: \n",
-    bech32: "bzx", // not known
     bip32: {
       public:  0x0488b21e,
       private: 0x0488ade4,
@@ -381,7 +367,6 @@ module.exports = {
   },
   bitcoinz: {
     messagePrefix: '\x18BitcoinZ Signed Message:\n',
-    bech32: 'bc',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
@@ -402,7 +387,6 @@ module.exports = {
   },
   hush: {
     messagePrefix: '\x18Hush Signed Message:\n',
-    bech32: 'bc',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
@@ -415,7 +399,6 @@ module.exports = {
   },
   ravencoin: {
     messagePrefix: "\x18Ravencoin Signed Message: \n",
-    bech32: "rvn", // not known
     bip32: {
       public:  0x0488b21e,
       private: 0x0488ade4,
@@ -428,7 +411,6 @@ module.exports = {
   },
   bitcore: {
     messagePrefix: "\x18Bitcore Signed Message: \n",
-    bech32: "btx", // not known
     bip32: {
       public:  0x0488b21e,
       private: 0x0488ade4,
@@ -441,7 +423,6 @@ module.exports = {
   },
   zcoin: {
     messagePrefix: "\x18Zcoin Signed Message: \n",
-    bech32: "xzc", // not known
     bip32: {
       public:  0x0488b21e,
       private: 0x0488ade4,
@@ -477,7 +458,8 @@ module.exports = {
     hashFunctions: hashFunctions	
   },	
   digibyte: {	
-    messagePrefix: '\x19Digibyte Signed Message:\n',	
+    messagePrefix: '\x19Digibyte Signed Message:\n',
+    bech32: 'dgb',
     bip32: {	
       public: 0x0488b21e,	
       private: 0x0488ade4	
